@@ -1,0 +1,19 @@
+.userRawWrapper {
+    display:flex;
+    flex-direction:column;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px #888888;
+    border-radius: 5px
+}
+.userRow {
+    display:flex;
+    justify-content: space-between;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.userData {
+    padding: 5px
+}

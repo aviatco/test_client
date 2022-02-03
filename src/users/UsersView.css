@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+}
+.usersContainer {
+    margin-right: 50px;
+    min-width: 40%;
+}
+#filterWraper {
+    display:flex;
+    justify-content: space-between;
+}
+
+#filterWraper #addUser , #filterWraper #filters{
+    margin: 20px 0px
+}
+
+.userActionView {
+    margin-top:30px
+}
+
+button {
+    min-width: 70px;
+    background-color: #0F8FFF;
+    border-color: #0F8FFF;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+label {
+    position: absolute;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+    color: rgb(118, 118, 118);
+    /* display: none; */
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
